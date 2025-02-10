@@ -13,7 +13,7 @@ public class PrintService {
     }
 
     public void submitJob(String user) {
-        submitJob(user, PrintJob.Priority.E);
+        submitJob(user, PrintJob.Priority.M);
     }
 
     public void processJobs() {

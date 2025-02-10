@@ -10,7 +10,7 @@ public class PrintJob implements Comparable<PrintJob> {
    *numero de prioridades
    * */
     public enum Priority {
-        R, E, Y
+        L, M, H
     }
 
 /**
@@ -26,7 +26,7 @@ public class PrintJob implements Comparable<PrintJob> {
  * Getter and Setter and printjob
  * **/
     public PrintJob(String user, LocalDateTime timestamp) {
-        this(user, timestamp, Priority.E);
+        this(user, timestamp, Priority.M);
     }
 
     public String getUser() {
